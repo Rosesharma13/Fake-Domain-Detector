@@ -1,31 +1,120 @@
-# Fake Domain Detector — NLP Classifier 🔐
+# 🔐 Fake Domain Detector — NLP Classifier
 
-## Overview
-Machine learning model to detect fake and malicious domain 
-names for cybersecurity applications.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-008080?style=flat)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 
-## Tech Stack
-- 🐍 Python
-- 📝 NLP — Natural Language Processing
-- 🤖 scikit-learn — ML classifier
-- 🔧 Feature Engineering
-- 📊 Pandas, NumPy
+## 📌 Overview
 
-## Model Performance
-- ✅ Accuracy: 90%+
-- ✅ Validation: Cross-validation on test sets
-- ✅ Dataset: 1000+ manually labeled samples
+Fake Domain Detector is a Machine Learning-based cybersecurity project that detects fake and malicious domain names using NLP techniques and feature engineering. The system analyzes domain patterns to identify phishing and suspicious URLs effectively.
 
-## Features Engineered from URLs
-- Character n-grams
-- TLD anomaly patterns  
-- Lexical entropy
-- Domain length and structure
+---
 
-## How to Run
-1. Clone the repository
-   git clone https://github.com/yourusername/fake-domain-detector
-2. Install requirements
-   pip install -r requirements.txt
-3. Run detector
-   python detector.py
+## ✨ Features
+
+- 🔍 **Malicious Domain Detection** — Classifies domains as FAKE 🚨 or LEGIT ✅  
+- 🧠 **NLP-based Analysis** — Uses character n-grams for pattern detection  
+- 📊 **Feature Engineering** — Entropy, domain length, and digit patterns  
+- ⚡ **Fast Predictions** — Real-time domain classification  
+- 🛡️ **Cybersecurity Focus** — Helps detect phishing and fraudulent domains  
+- 📈 **Scalable Model** — Can be trained on large datasets (1000+ samples)  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **Python** | Core programming language |
+| **Scikit-learn** | Machine Learning model |
+| **NLP (Character N-grams)** | Feature extraction |
+| **Pandas** | Data processing |
+| **NumPy** | Numerical computations |
+
+---
+
+## 📁 Project Structure
+fake-domain-detector/
+├── data/ # Dataset (domain names)
+├── src/ # Feature engineering & ML logic
+├── detector.py # Main script for prediction
+├── requirements.txt # Python dependencies
+├── .gitignore # Ignored files
+└── README.md # Documentation
+
+---
+
+## 🚀 How to Run
+
+### Step 1 — Clone the repository
+```bash
+git clone https://github.com/Rosesharma13/Fake-Domain-Detector
+cd Fake-Domain-Detector 
+```
+
+### Step 2 — Install dependencies
+```bash
+pip install -r requirements.txt 
+```
+
+### Step 3 — Run the detector
+```bash
+python detector.py
+```
+
+## 💬 Example Usage
+| Input                          | Output  |
+| ------------------------------ | ------- |
+| secure-amazon-login.com        | FAKE 🚨 |
+| google.com                     | LEGIT ✅|
+| paytm-verification-alert.xyz   | FAKE 🚨 |
+
+
+## 📊 Model Details
+Algorithm: Random Forest Classifier
+Features Used:
+   Character n-grams (NLP)
+   Domain length
+   Digit count
+   Lexical entropy
+Accuracy: ~90% (with extended dataset)
+
+## 📸 Screenshots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 🔑 Key Learning Outcomes
+**NLP Feature Engineering** — Using character-level patterns for classification
+**Machine Learning Pipeline** — Data preprocessing → training → prediction
+**Cybersecurity Application** — Detecting phishing domains
+**Model Optimization** — Improving performance using engineered features
+
+
+## 👩‍💻 Author
+
+**Rose Sharma**
+
+LinkedIn: linkedin.com/in/rose-sharma13
+Email: rosesharmaa132003@gmail.com
+
+
+## 📄 License
+
+This project is licensed under the MIT License.
