@@ -64,6 +64,8 @@ pip install -r requirements.txt
 python detector.py
 ```
 
+---
+
 ## 💬 Example Usage
 | Input                          | Output  |
 | ------------------------------ | ------- |
@@ -71,15 +73,18 @@ python detector.py
 | google.com                     | LEGIT ✅|
 | paytm-verification-alert.xyz   | FAKE 🚨 |
 
+---
 
 ## 📊 Model Details
-Algorithm: Random Forest Classifier
-Features Used:
-   Character n-grams (NLP)
-   Domain length
-   Digit count
-   Lexical entropy
-Accuracy: ~90% (with extended dataset)
+-Algorithm: Random Forest Classifier
+-Features Used:
+   -Character n-grams (NLP)
+   -Domain length
+   -Digit count
+   -Lexical entropy
+-Accuracy: ~90% (with extended dataset)
+
+---
 
 ## 📸 Screenshots
 
@@ -98,14 +103,15 @@ Accuracy: ~90% (with extended dataset)
 
 
 
-
+---
 
 ## 🔑 Key Learning Outcomes
-**NLP Feature Engineering** — Using character-level patterns for classification
-**Machine Learning Pipeline** — Data preprocessing → training → prediction
-**Cybersecurity Application** — Detecting phishing domains
-**Model Optimization** — Improving performance using engineered features
+-**NLP Feature Engineering** — Using character-level patterns for classification
+-**Machine Learning Pipeline** — Data preprocessing → training → prediction
+-**Cybersecurity Application** — Detecting phishing domains
+-**Model Optimization** — Improving performance using engineered features
 
+---
 
 ## 👩‍💻 Author
 
@@ -114,6 +120,7 @@ Accuracy: ~90% (with extended dataset)
 LinkedIn: linkedin.com/in/rose-sharma13
 Email: rosesharmaa132003@gmail.com
 
+---
 
 ## 📄 License
 
