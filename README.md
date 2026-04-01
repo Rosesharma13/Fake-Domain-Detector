@@ -36,6 +36,7 @@ Fake Domain Detector is a Machine Learning-based cybersecurity project that dete
 ---
 
 ## 📁 Project Structure
+```
 fake-domain-detector/
 ├── data/ # Dataset (domain names)
 ├── src/ # Feature engineering & ML logic
@@ -43,6 +44,7 @@ fake-domain-detector/
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Ignored files
 └── README.md # Documentation
+```
 
 ---
 
@@ -76,13 +78,13 @@ python detector.py
 ---
 
 ## 📊 Model Details
--Algorithm: Random Forest Classifier
--Features Used:
-   -Character n-grams (NLP)
-   -Domain length
-   -Digit count
-   -Lexical entropy
--Accuracy: ~90% (with extended dataset)
+- **Algorithm**: Random Forest Classifier
+- **Features Used**:
+   - Character n-grams (NLP)
+   - Domain length
+   - Digit count
+   - Lexical entropy
+- **Accuracy**: ~90% (with extended dataset)
 
 ---
 
@@ -106,10 +108,10 @@ python detector.py
 ---
 
 ## 🔑 Key Learning Outcomes
--**NLP Feature Engineering** — Using character-level patterns for classification
--**Machine Learning Pipeline** — Data preprocessing → training → prediction
--**Cybersecurity Application** — Detecting phishing domains
--**Model Optimization** — Improving performance using engineered features
+- **NLP Feature Engineering** — Using character-level patterns for classification
+- **Machine Learning Pipeline** — Data preprocessing → training → prediction
+- **Cybersecurity Application** — Detecting phishing domains
+- **Model Optimization** — Improving performance using engineered features
 
 ---
 
@@ -117,8 +119,8 @@ python detector.py
 
 **Rose Sharma**
 
-LinkedIn: linkedin.com/in/rose-sharma13
-Email: rosesharmaa132003@gmail.com
+- LinkedIn: linkedin.com/in/rose-sharma13(https://www.linkedin.com/in/rose-sharma13)
+- Email: rosesharmaa132003@gmail.com
 
 ---
 
